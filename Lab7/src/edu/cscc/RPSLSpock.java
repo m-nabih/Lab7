@@ -1,11 +1,11 @@
 package edu.cscc;
 import java.util.Random;
 
-// TODO remove this comment and  document this class. Be sure to include an @author tag
+
 
 /**
  * RPSLSpock class
- * @author
+ * @author Mohammed Nabih
  */
 public class RPSLSpock {
 
@@ -19,8 +19,8 @@ public class RPSLSpock {
 
     /**
      *
-     * @param pick a valid pick
-     * @return a valid pick(ROCK,PAPER,SCISSORS,LIZARD,SPOCK)
+     * @param pick value
+     * @return true when pick is valid, false otherwise
      */
     public static boolean isValidPick(String pick) {
         if (pick == null) {
@@ -64,7 +64,7 @@ public class RPSLSpock {
      *
      * @param c_pick
      * @param h_pick
-     * @return The Winner
+     * @return True when c_pick Win, false otherwise
      */
     public static boolean isComputerWin(String c_pick,String h_pick) {
         h_pick = h_pick.toLowerCase();
