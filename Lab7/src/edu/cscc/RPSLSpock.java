@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * RPSLSpock class
- * @author Mohammed Nabih
+ * @author Mhammed Nabih
  */
 public class RPSLSpock {
 
@@ -62,8 +62,8 @@ public class RPSLSpock {
 
     /**
      *
-     * @param c_pick
-     * @param h_pick
+     * @param c_pick computer pick
+     * @param h_pick human pick
      * @return True when c_pick Win, false otherwise
      */
     public static boolean isComputerWin(String c_pick,String h_pick) {
